@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+# generated from catkin/python/catkin/environment_cache.py
+
+# based on a snapshot of the environment before and after calling the setup script
+# it emulates the modifications of the setup script without recurring computations
+
+# new environment variables
+
+# modified environment variables
+export CMAKE_PREFIX_PATH="/mnt/e/git_projects/ROS/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PATH="/opt/ros/kinetic/bin:/home/hunter/.local/share/umake/bin:/home/hunter/bin:/home/hunter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu16.04onWindows_1604.2018.820.0_x64__79rhkp1fndgsc:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/nodejs:/mnt/c/Windows/System32/OpenSSH:/mnt/d/Git/cmd:/mnt/d/Ruby25-x64/bin:/mnt/c/Users/hunter/AppData/Local/Programs/Python/Python37-32/Scripts:/mnt/c/Users/hunter/AppData/Local/Programs/Python/Python37-32:/mnt/c/Users/hunter/AppData/Local/Microsoft/WindowsApps:/mnt/e/Microsoft VS Code:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/hunter/AppData/Roaming/npm:/mnt/e/Android Studio/platform-tools:/mnt/c/MinGW/bin:/mnt/c/Program Files/Java/jre1.8.0_151/bin:/mnt/c/Program Files/Java/jdk1.8.0_151/bin:/mnt/c/Program Files (x86)/Google/Chrome/Application:/mnt/c/Program Files (x86)/Adobe/Acrobat Reader DC/Reader:/mnt/c/Program Files/Adobe/Adobe Photoshop CC 2018:/mnt/d/Blender:/mnt/c/Users/hunter/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Steam:/mnt/e/Godot:/mnt/c/Users/hunter/Downloads/chromedriver_win32:/mnt/c/Users/hunter/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/PyCharm Community Edition 2018.3.2/bin:/mnt/d/flutter_windows_v1.0.0-stable/flutter/bin:/mnt/d/Sublime Text 3:/mnt/d/atom-windows/Atom:/mnt/d/python applications:/mnt/c/Program Files/LibreOffice/program:/mnt/d/OpenShot Video Editor:/mnt/e/Android Studio/Android Studio 3/bin:/mnt/c/Program Files/SumatraPDF:/mnt/e/Anaconda3/Scripts:/mnt/d/Vim/vim81:/mnt/d/Notepad++:/mnt/d/sqlite:/mnt/e/Anaconda3:/mnt/e/VLC:/mnt/c/Program Files/Mozilla Firefox:/mnt/d/Git:/snap/bin"
+export PWD="/mnt/e/git_projects/ROS/catkin_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/mnt/e/git_projects/ROS/catkin_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/mnt/e/git_projects/ROS/catkin_ws/src:$ROS_PACKAGE_PATH"
