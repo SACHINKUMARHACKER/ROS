@@ -58,7 +58,7 @@ my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/ki
 my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/ros/wall_timer.h
 my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
-my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/std_msgs/String.h
+my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/std_msgs/Int32.h
 my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 my_package/CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 

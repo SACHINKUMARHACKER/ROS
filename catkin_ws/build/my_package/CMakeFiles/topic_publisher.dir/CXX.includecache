@@ -9,9 +9,9 @@
 /home/hunter/github_projects/ROS/catkin_ws/src/my_package/src/topic_publisher.cpp
 ros/ros.h
 /home/hunter/github_projects/ROS/catkin_ws/src/my_package/src/ros/ros.h
-std_msgs/String.h
-/home/hunter/github_projects/ROS/catkin_ws/src/my_package/src/std_msgs/String.h
-sstream
+std_msgs/Int32.h
+/home/hunter/github_projects/ROS/catkin_ws/src/my_package/src/std_msgs/Int32.h
+iostream
 -
 
 /opt/ros/kinetic/include/ros/advertise_options.h
@@ -660,7 +660,7 @@ ros/forwards.h
 
 /opt/ros/kinetic/include/rosconsole/macros_generated.h
 
-/opt/ros/kinetic/include/std_msgs/String.h
+/opt/ros/kinetic/include/std_msgs/Int32.h
 string
 -
 vector
