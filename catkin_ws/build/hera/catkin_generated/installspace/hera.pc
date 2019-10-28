@@ -1,0 +1,8 @@
+prefix=/home/hunter/github_projects/ROS/catkin_ws/install
+
+Name: hera
+Description: Description of hera
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hunter/github_projects/ROS/catkin_ws/install/lib 
+Requires: 

@@ -145,14 +145,14 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/my_package_node.cpp)
 
-add_executable(topic_publisher src/topic_publisher.cpp)
-add_dependencies(topic_publisher my_package_generate_messages_cpp)
-target_link_libraries(topic_publisher ${catkin_LIBRARIES})
+# add_executable(topic_publisher src/topic_publisher.cpp)
+# add_dependencies(topic_publisher my_package_generate_messages_cpp)
+# target_link_libraries(topic_publisher ${catkin_LIBRARIES})
 
 
-add_executable(topic_subscriber src/topic_subscriber.cpp)
-add_dependencies(topic_subscriber my_package_generate_messages_cpp)
-target_link_libraries(topic_subscriber ${catkin_LIBRARIES})
+# add_executable(topic_subscriber src/topic_subscriber.cpp)
+# add_dependencies(topic_subscriber my_package_generate_messages_cpp)
+# target_link_libraries(topic_subscriber ${catkin_LIBRARIES})
 
 
 ## Rename C++ executable without prefix

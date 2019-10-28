@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /mnt/e/git_projects/ROS/catkin_ws/install/setup.sh
+    local-name: /home/hunter/github_projects/ROS/catkin_ws/install/setup.sh
