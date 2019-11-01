@@ -1,0 +1,10 @@
+# goal
+duration timer_goal
+---
+# result
+duration timer_result
+uint8 count
+---
+# feedback
+duration timer_feedback
+uint8 count_feedback
