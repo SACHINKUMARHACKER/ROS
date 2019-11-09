@@ -1,10 +1,10 @@
 # goal
-duration timer_goal
+duration time_to_wait
 ---
 # result
-duration timer_result
-uint8 count
+duration time_elapsed
+uint8 updates_sent
 ---
 # feedback
-duration timer_feedback
-uint8 count_feedback
+duration timer_elapsed
+duration time_remaining

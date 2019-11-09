@@ -1,6 +1,6 @@
 (cl:in-package my_package-msg)
-(cl:export '(TIMER_RESULT-VAL
-          TIMER_RESULT
-          COUNT-VAL
-          COUNT
+(cl:export '(TIME_ELAPSED-VAL
+          TIME_ELAPSED
+          UPDATES_SENT-VAL
+          UPDATES_SENT
 ))

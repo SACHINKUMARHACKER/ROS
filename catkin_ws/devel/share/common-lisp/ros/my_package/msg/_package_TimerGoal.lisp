@@ -1,4 +1,4 @@
 (cl:in-package my_package-msg)
-(cl:export '(TIMER_GOAL-VAL
-          TIMER_GOAL
+(cl:export '(TIME_TO_WAIT-VAL
+          TIME_TO_WAIT
 ))
