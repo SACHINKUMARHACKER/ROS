@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="my_package" name="simple_action_server" type="simple_action_server.py" output="screen"/>
+    <node pkg="my_package" name="simple_action_client" type="simple_action_client.py" output="screen"/>
+</launch>
