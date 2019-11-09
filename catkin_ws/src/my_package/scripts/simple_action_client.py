@@ -13,7 +13,7 @@ class simple_action_client:
         self.client.wait_for_server()
         self.goal = TimerGoal()
         self.goal.time_to_wait = rospy.Duration.from_sec(5.0)
-        self.client.send_goal(goal)
+        self.client.send_goal(self.goal)
         self.client.wait_for_result()
         print('Time elapsed %f'%(self.client.get_result().time_elapsed.to_sec()))
 
