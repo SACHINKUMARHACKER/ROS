@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="my_package" type="fancy_action_server.py" name="fancy_action_server" output="screen"/>
+    <node pkg="my_package" type="fancy_action_client.py" name="fancy_action_client" output="screen"/> 
+</launch>
