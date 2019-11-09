@@ -13,7 +13,7 @@ class fancy_action_client:
         self.client.wait_for_server()
 
         self.goal = TimerGoal()
-        self.goal.time_to_wait = rospy.Duration.from_sec(5.0)
+        self.goal.time_to_wait = rospy.Duration.from_sec(500.0)
         
         self.client.send_goal(self.goal,feedback_cb= self.feedback_cb)
         self.client.wait_for_result()
