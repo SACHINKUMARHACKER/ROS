@@ -41,6 +41,22 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_package/action" TYPE FILE FILES "/home/hunter/github_projects/ROS/catkin_ws/src/my_package/action/Timer.action")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_package/msg" TYPE FILE FILES
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerAction.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerActionGoal.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerActionResult.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerActionFeedback.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerGoal.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerResult.msg"
+    "/home/hunter/github_projects/ROS/catkin_ws/devel/share/my_package/msg/TimerFeedback.msg"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_package/cmake" TYPE FILE FILES "/home/hunter/github_projects/ROS/catkin_ws/build/my_package/catkin_generated/installspace/my_package-msg-paths.cmake")
 endif()
 
